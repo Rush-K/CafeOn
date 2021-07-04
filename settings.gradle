@@ -1,0 +1,2 @@
+rootProject.name = "CafeOn"
+include ':app'
