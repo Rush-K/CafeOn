@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CafeOn">
+        <activity android:name=".MainActivity"></activity>
         <activity
-            android:name=".loginActivity"
+            android:name=".LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/Theme.CafeOn.NoActionBar">
             <intent-filter>
