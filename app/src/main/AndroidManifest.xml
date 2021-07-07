@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CafeOn">
         <activity android:name=".MainActivity"></activity>
+        <activity android:name=".NewUserActivity"></activity>
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
