@@ -32,6 +32,6 @@ class MainActivity : AppCompatActivity() {
             userInformation = intent.getSerializableExtra("userinformation") as UserInfo
         }
 
-        mainActivityBinding.userId.text = userInformation!!.nickname.toString().plus("님, 안녕하세요 :)")
+        mainActivityBinding.toolbarNickname.text = userInformation!!.nickname.toString().plus("님, 안녕하세요 :)")
     }
 }
