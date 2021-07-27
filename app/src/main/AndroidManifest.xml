@@ -11,7 +11,8 @@
         <activity android:name=".MainActivity"
             android:theme="@style/mainBar"></activity>
 
-        <activity android:name=".NewUserActivity"></activity>
+        <activity android:name=".NewUserActivity"
+            android:theme="@style/AppTheme"></activity>
 
         <activity
             android:name=".LoginActivity"

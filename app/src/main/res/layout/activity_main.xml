@@ -12,7 +12,8 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
-        android:layout_height="35dp">
+        android:layout_height="50dp"
+        android:background="#F8E7E7">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -20,23 +21,27 @@
 
             <ImageView
                 android:id="@+id/toolbar_btn_back"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:src="@drawable/ic_arrow_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_alignParentLeft="true"
-                android:layout_marginRight="22dp"
-                />
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                app:srcCompat="@drawable/cafeon_icon" />
+
             <TextView
-                android:gravity="center"
-                android:textColor="@color/colorNavIcon"
-                android:layout_centerVertical="true"
                 android:id="@+id/toolbar_nickname"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="test@mail.com"
-                android:textSize="16sp"
+                android:layout_centerVertical="true"
                 android:layout_toRightOf="@+id/toolbar_btn_back"
-                />
+                android:fontFamily="@font/cafe24_ssurroundair"
+                android:gravity="center"
+                android:text="mingth 님"
+                android:textColor="@color/colorNavIcon"
+                android:textSize="16sp" />
 
         </RelativeLayout>
 
